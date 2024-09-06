@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bg Generator</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        height: 100svb;
+        width: 100vw;
+        background-color: #000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+
+      .container * {
+        padding: 1rem 5rem;
+        border-radius: 1rem;
+        background: #6e6e6c;
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <span class="previous">Previous</span>
+      <span class="colorName"> #000 </span>
+      <span class="next">Next</span>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
